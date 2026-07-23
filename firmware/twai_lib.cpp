@@ -84,7 +84,7 @@ bool ESP32S3_TWAI::getAlerts()
   {
     return true;
   }
-  if (alerts_triggered & TWAI_ALERT_BUS_ERROR & TWAI_ALERT_BUS_OFF)
+  if (alerts_triggered & (TWAI_ALERT_BUS_ERROR | TWAI_ALERT_BUS_OFF))
   {
     close();
 #ifdef DEBUG

@@ -55,7 +55,7 @@ void TaskCANReceiver(void *pvParameters)
 #endif
   }
 
-  ret = can.alertConfigure();
+  ret = can.alertConfigure(TWAI_ALERT_RX_DATA | TWAI_ALERT_BUS_ERROR | TWAI_ALERT_BUS_OFF);
 #ifdef DEBUG
   Serial.printf("can.alertConfigure : %s\n", ret ? "OK" : "FAIL");
 #endif
