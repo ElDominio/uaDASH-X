@@ -88,6 +88,10 @@ Required library:
 
 ## FAQ
 
+### Q: what CANbus protocol is used?
+
+A: usDASH consumes 'rusEFI CAN broadcast' traffic.
+
 ### Q: which of three supported screens is best?
 
 A: ESP32-S3-Touch-LCD-5 from Waveshare has both on-board CAN transceiver and on-board 12v power supply, that one you just need to connect to vehicle!
