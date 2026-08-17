@@ -90,7 +90,7 @@ Required library:
 
 ### Q: what CANbus protocol is used?
 
-A: usDASH consumes 'rusEFI CAN broadcast' traffic.
+A: uaDASH consumes 'rusEFI CAN broadcast' traffic.
 
 ### Q: which of three supported screens is best?
 
